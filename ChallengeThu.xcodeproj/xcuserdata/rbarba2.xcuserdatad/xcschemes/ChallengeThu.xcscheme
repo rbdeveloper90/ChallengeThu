@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE1C78B51E5D809F009B8F4A"
+               BuildableName = "ChallengeThu.app"
+               BlueprintName = "ChallengeThu"
+               ReferencedContainer = "container:ChallengeThu.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE1C78C91E5D809F009B8F4A"
+               BuildableName = "ChallengeThuTests.xctest"
+               BlueprintName = "ChallengeThuTests"
+               ReferencedContainer = "container:ChallengeThu.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE1C78D41E5D809F009B8F4A"
+               BuildableName = "ChallengeThuUITests.xctest"
+               BlueprintName = "ChallengeThuUITests"
+               ReferencedContainer = "container:ChallengeThu.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AE1C78B51E5D809F009B8F4A"
+            BuildableName = "ChallengeThu.app"
+            BlueprintName = "ChallengeThu"
+            ReferencedContainer = "container:ChallengeThu.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AE1C78B51E5D809F009B8F4A"
+            BuildableName = "ChallengeThu.app"
+            BlueprintName = "ChallengeThu"
+            ReferencedContainer = "container:ChallengeThu.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "AE1C78B51E5D809F009B8F4A"
+            BuildableName = "ChallengeThu.app"
+            BlueprintName = "ChallengeThu"
+            ReferencedContainer = "container:ChallengeThu.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

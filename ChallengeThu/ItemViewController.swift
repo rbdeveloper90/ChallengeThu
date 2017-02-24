@@ -111,7 +111,6 @@ class ItemViewController: UITableViewController {
             {
                 let my_item = itemStore.array[currentIndex]
                 let detView = segue.destination as! DetailsViewController
-                print(my_item.image)
                 detView.currentItem = my_item
                 detView.flag = 0
             }

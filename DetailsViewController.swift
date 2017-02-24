@@ -19,13 +19,14 @@ class DetailsViewController: UIViewController {
     var itemArray:ItemStore!
     var flag:Int!
     
-    @IBOutlet var imageItem: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet var imageItem: UIImageView!
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

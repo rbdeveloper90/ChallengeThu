@@ -176,6 +176,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageItem" destination="yqR-kd-FbZ" id="NVg-ib-a5m"/>
                         <outlet property="labelData" destination="JfV-Ci-FaN" id="MXP-v1-6gd"/>
                         <outlet property="textDescription" destination="M5f-Kv-v4a" id="sl4-GR-fwv"/>
                         <outlet property="textName" destination="6rI-JL-1Ze" id="kxe-l0-uBF"/>
